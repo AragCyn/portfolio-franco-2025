@@ -112,7 +112,7 @@ display: none;
   display: flex;
   justify-content: center;
   align-items: center; 
-  margin-top: 5%;
+  margin-top: 8%;
   gap: 5rem;
 }
 
@@ -272,14 +272,19 @@ transition: .5s ease;
   justify-content: center;
   gap: 20px;
   font-size: 4.5rem;
-  
-  
-}
+  margin-top: 0;
+  }
+
+  .about-content-2 h2 {
+    margin-bottom: 2px; /* Ajustá este valor según lo que necesites */
+  }
+
 .programas img {
-  width: 200px;
+  width: 800px;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
 }
 
 /*GALERIA */
@@ -647,7 +652,7 @@ transition: .5s ease;
 
   .home-content h3 {
     font-size: 2rem;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .home-content p {
