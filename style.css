@@ -371,7 +371,7 @@ transition: .5s ease;
 /*COM0 TRABAJO*/
 
 .como-trabajo{
-  padding: 50px 0;
+  padding: 50px 0 20px 0;
   text-align: center;
   
 }
@@ -509,7 +509,7 @@ transition: .5s ease;
   
   @media (max-width: 768px) {
     .programas img {
-      width: 50px; /* o el tamaño que prefieras para móvil */
+      width: 100px; /* o el tamaño que prefieras para móvil */
       height: auto;
     }
   
@@ -519,7 +519,7 @@ transition: .5s ease;
   }
   
 
-
+  
 
 
 /* Responsive como trabajo, opiniones y footer*/
@@ -674,6 +674,10 @@ transition: .5s ease;
   }
 
   .programas img {
-    width: 60%;
+    width: 90%;
   }
 } 
+
+.comotrabajo-card:last-child {
+  margin-bottom: 0;
+}
