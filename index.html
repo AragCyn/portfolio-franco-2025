@@ -32,8 +32,8 @@
     </header>
 
 <main>
-<section class="home" id="home">
-<div class="home-content">
+<section class="home" id="home" >
+<div class="home-content" >
  <h3>Hola, me llamo</h3>
   <h1>Franco Albero</h1>
   <h3>Soy</h3>
@@ -497,6 +497,15 @@ Slider de imágenes
   menuIcon.onclick = () => {
     navbar.classList.toggle('active');
   }
+
+  let navLinks = document.querySelectorAll('.navbar a');
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    navbar.classList.remove('active');
+  });
+});
+
 </script>
 
 
