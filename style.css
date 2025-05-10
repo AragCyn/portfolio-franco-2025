@@ -681,3 +681,38 @@ transition: .5s ease;
 .comotrabajo-card:last-child {
   margin-bottom: 0;
 }
+
+/* Estilos para tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  .home-content h3 {
+    
+    margin-top: 30px;
+  }
+}
+  
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .usos-container {
+    flex-direction: column;
+    margin: 2rem;
+    gap: 2rem;
+  }
+
+  .usos-container .usos-box {
+    flex: 1 1 100%;
+    padding: 2rem;
+  }
+
+  .usos-box h3 {
+    font-size: 2.2rem;
+  }
+
+  .usos-box p {
+    font-size: 1.4rem;
+  }
+
+  .usos-box i {
+    font-size: 6rem;
+  }
+}
